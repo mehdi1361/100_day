@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    background-color: rgb(220, 206, 233);
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+}
+
+/* p {
+    text-align: left;
+    padding-right: 30px;
+} */
+main {
+    background-color: rgb(94, 41, 143);
+    color: rgb(208, 207, 209);
+    border-radius: 9px;
+    margin: 0 180px 0 180px;
+    padding: 20px 10px 30px 20px;
+}
+main h2 {
+    text-align: left;
+    font-family: 'Fira Sans' sans-serif;
+}
+
+ul {
+    margin: 0;
+}
+li {
+    word-wrap: break-word;
+    text-align: left;
+    list-style: outside;
+    margin: 0;
+}
+
+.inline_a {
+    background-color: rgb(240, 195, 71);
+    padding: 5px;
+    border-radius: 3px;
+    color: rgb(19, 17, 16);
+    text-decoration: none;
+    font-size: small;
+}
+footer a {
+    background-color: rgb(219, 174, 118);
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    color: rgba(24, 22, 22, 0.425);
+}
