@@ -1,23 +1,32 @@
 body {
+    /* text-align: center; */
+    font-family: Roboto ;
+    background-color: rgb(244, 236, 255);
+}
+
+h1 {
+    font-size: 52px;
+    color: rgb(88, 49, 196);
+}
+
+header {
     text-align: center;
-    background-color: rgb(220, 206, 233);
+    padding: 32px;
 }
 
-#logo {
-    width: 200px;
-    height: 200px;
+header img {
+    width: 300px;
 }
 
-/* p {
-    text-align: left;
-    padding-right: 30px;
-} */
+
 main {
-    background-color: rgb(94, 41, 143);
-    color: rgb(208, 207, 209);
-    border-radius: 9px;
-    margin: 0 180px 0 180px;
-    padding: 20px 10px 30px 20px;
+    background-color: rgb(122, 74, 218);
+    padding: 32px;
+    margin: 32px auto;
+    width: 700px;
+    border-radius: 8px;
+    color: rgb(248, 241, 255);
+    box-shadow: 8px 6px 5px rgba(24, 22, 22, 0.425);
 }
 main h2 {
     text-align: left;
@@ -26,12 +35,18 @@ main h2 {
 
 ul {
     margin: 0;
+    padding: 0;
+    list-style: none;
 }
 li {
-    word-wrap: break-word;
-    text-align: left;
-    list-style: outside;
-    margin: 0;
+    margin: 14px 0;
+    padding-left: 10px;
+    border-left: 5px solid transparent;
+}
+
+.extra-important {
+    color: rgb(255, 237, 177);
+    border-color: rgb(247, 209, 85);
 }
 
 .inline_a {
@@ -42,12 +57,18 @@ li {
     text-decoration: none;
     font-size: small;
 }
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
 footer a {
     background-color: rgb(219, 174, 118);
     padding: 10px;
     border-radius: 8px;
     text-decoration: none;
     color: black;
+    box-shadow: 3px 3px 4px rgba(24, 22, 22, 0.425);
 }
 
 footer p {
