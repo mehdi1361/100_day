@@ -16,7 +16,7 @@ header ul {
 
 header li {
     margin-left: 20px;
-    padding: 15px 6px;
+    padding: 15px 15px;
 }
 
 #page-logo a {
@@ -37,4 +37,6 @@ ul {
 }
 li a {
     text-decoration: none;
+    color: rgb(245, 243, 160);
+    text-shadow: 1px 1px 1px rgb(0,0,0);
 }
