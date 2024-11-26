@@ -29,13 +29,21 @@
     font-size: 24px;
     color: white;
     font-weight: 300;
+    margin-bottom: 80px;
 }
 
 #hero-content a { 
     text-decoration: none;
     background-color: rgb(192, 159, 11);
     padding: 12px 24px;
-    border-radius: 3px;
-    color: rgb(255, 251, 0);
+    border-radius: 8px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
 
+#hero-content a:hover {
+
+    background-color: rgb(216, 176, 16);
 }
