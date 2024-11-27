@@ -6,6 +6,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 header ul {
@@ -35,7 +38,7 @@ ul {
     padding: 0;
     
 }
-li a {
+header a {
     text-decoration: none;
     color: rgb(245, 243, 160);
     text-shadow: 1px 1px 1px rgb(0,0,0);
