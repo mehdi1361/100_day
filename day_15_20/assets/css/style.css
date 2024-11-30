@@ -48,3 +48,7 @@
 
     background-color: rgb(216, 176, 16);
 }
+
+.destination img {
+    height: 200px;
+}
