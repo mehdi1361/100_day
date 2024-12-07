@@ -11,6 +11,12 @@ header {
     box-sizing: border-box;
 }
 
+header a:hover {
+    color: rgb(77, 77, 77);
+    background-color: rgb(255, 251, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
 header ul {
     display: flex;
     flex-wrap: nowrap;
