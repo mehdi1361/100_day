@@ -1,11 +1,18 @@
 body {
     text-align: center;
     background-color: rgb(233, 215, 207);
+    margin: 50px;
+}
+
+img {
+     width: 125px;
+     height: 125px;
+     border-radius: 50px;
 }
 h1 {
     font-family: 'Oswald' sans-serif;
     color: rgb(128, 9, 29);
-    text-align: center;
+    text-decoration: green wavy underline;
 }
 
 p {
@@ -17,19 +24,23 @@ p {
 a {
     color: rgb(255, 2, 2);
     text-decoration: none;
+
 }
 
 a:hover {
     text-decoration: underline;
+    color: rgb(229, 156, 66);
 }
+
 #today-challenge {
     color: rgb(176,69,83);
     font-weight: bold;
     font-size: 20px;
 }
+a[href^="mailto"]::before {
+  content: "📧 ";
+}
 
-img {
-     width: 125px;
-     height: 125px;
-     border-radius: 50px;
+a[href^="tel"]::before {
+  content: "📞 ";
 }
