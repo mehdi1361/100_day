@@ -3,7 +3,7 @@ body {
     background-color: rgb(233, 215, 207);
 }
 h1 {
-    font-family: 'Fira Sans' sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     color: rgb(51, 5, 13);
     text-align: center;
 }
