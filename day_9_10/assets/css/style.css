@@ -74,3 +74,8 @@ footer a {
 footer p {
     color: rgba(24, 22, 22, 0.425);
 }
+
+main em {
+    background-color: yellow ;
+    color: black;
+}
