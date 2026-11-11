@@ -29,7 +29,6 @@ ol {
 li {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     padding: 16px;
-    list-style: none;
     background-color: rgb(202, 155, 53);
     margin: 40px;
     border-radius: 6px;
@@ -46,7 +45,7 @@ header p {
 
 h2 {
     color: rgb(78, 13, 5);
-    font-family: 'Oswald' sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 main p {
     margin: 12px;
