@@ -1,0 +1,9 @@
+<p><strong>JSON is an acronym for "JavaScript Object Notation"&nbsp;</strong>and it's a <strong>standardized way of formatting text data</strong> into a machine- and human-readable format.</p><p>JSON-formatted text data looks like this:</p><pre class="prettyprint linenums">{
+    "username":&nbsp;"Max",
+    "age": 32,
+    "hobbies":&nbsp;["Sports", "Cooking"],
+    "address":&nbsp;{
+      "city":&nbsp;"Munich",
+      "street: "Some street 5"
+    }
+}</pre><p>It's called "JavaScript Object Notation"&nbsp;because the formatting<strong> resembles the "look"&nbsp;and structure of objects in JavaScript code</strong>. Though, it's important to understand that you can work with JSON-formatted data in JavaScript (e.g. you can read or write a file that contains data in that format) <strong>BUT it's not JavaScript-exclusive</strong>. Instead it's a <strong>very common data format</strong> for all kinds of use-cases and it's usable in basically all programming languages.</p><p>Again:&nbsp;The above snippet is some text (<strong>NOT JS&nbsp;code!</strong>) that contains data which is saved in a structured way (using the JSON structure). Formats like this exist because it allows developers to save and exchange data in standardized, machine-readable ways. Alternative common formats would be XML or Apache Parquet (the latter is primarily used for data science though).</p><p>A&nbsp;<strong>key difference</strong> between JS&nbsp;objects inside of JS&nbsp;code and JSON-formatted text data is that key names ("properties")<strong>&nbsp;have to be wrapped by double quotes i</strong>n JSON whereas no quotes are required in JavaScript (though you are allowed to wrap property names between quotes there as well - but it's not a requirement).</p><p>In addition, string values (i.e. text) <strong>have to be "marked" by wrapping them with double quotes</strong> as well. In contrast, in JavaScript code, both double and single quotes are allowed.</p>

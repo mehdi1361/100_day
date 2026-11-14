@@ -1,0 +1,8 @@
+<p>When errors occur, you also always get some data (typically an object)&nbsp;with more information about that error (e.g. a message and a sequence of steps that lead to the error).</p><p>You can get hold of that object /&nbsp;data like this:</p><pre class="prettyprint linenums">try {
+    somethingThatMightFail();
+} catch (error) { // accept an "error parameter" after catch
+    console.log(error.message);
+}</pre><p>You can accept the error data like a parameter (even though it technically isn't a function) after <code>catch</code>.</p><p>What exactly that data is (e.g. an object with a <code>message</code> property)&nbsp;will depend on the function / method that caused the error.</p><p>You can also throw your own errors:</p><pre class="prettyprint linenums">function doSomething() {
+    //&nbsp;do something ...
+    throw { message:&nbsp;'Something went wrong! };
+}</pre><p>That's a bit more advanced but that is in the end what all these built-in functions and methods do, if they cause an error.</p>

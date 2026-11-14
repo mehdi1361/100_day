@@ -1,0 +1,8 @@
+<p>In this module (and also in the next module), we always work on one <code>*.js</code> file only and we only include (link) one <code>*.js</code> file at the same time to our HTML&nbsp;file.</p><p>That's not a must-do though!</p><p>If you build more complex websites, that might required different scripts that do different things, you can absolutely include multiple, separate script files into one and the same <code>*.html</code> file.</p><p>You can simply add multiple <code>&lt;script src="..."&gt;</code> elements into your HTML&nbsp;document:</p><pre class="prettyprint linenums">&lt;head&gt;
+    &lt;script src="first-script.js"&gt;&lt;/script&gt;
+    &lt;script src="second-script.js"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;/body&gt;
+...
+    &lt;script src="third-script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;</pre><p>The linked scripts will be <strong>parsed and executed in the order</strong> you defined in the HTML&nbsp;file. It also doesn't matter whether you link them in your <code>&lt;head&gt;</code> section or your <code>&lt;body&gt;</code> section (or if you do both, as shown in this example).</p><p>You can also define functions or variable in file A&nbsp;and use them in file B, though you should make sure that the file where you define them is included (linked) before the file where you use them.</p><p>So in the example above, we could define a variable in <code>first-script.js</code>:</p><pre class="prettyprint linenums">let myName =&nbsp;'Max';</pre><p>and then use it in <code>second-script.js</code>:</p><pre class="prettyprint linenums">console.log(myName);</pre>

@@ -1,0 +1,1 @@
+https://github.com/academind/100-days-of-web-development/blob/12-advanced-javascript-dom/code/02-drilling-into-the-dom/index.html
