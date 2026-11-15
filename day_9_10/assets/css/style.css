@@ -1,81 +1,74 @@
 body {
-    /* text-align: center; */
-    font-family: Roboto ;
-    background-color: rgb(244, 236, 255);
+    background-color: rgb(243, 233, 255);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-h1 {
-    font-size: 52px;
-    color: rgb(88, 49, 196);
-}
-
 header {
+    padding: 20px;
     text-align: center;
-    padding: 32px;
 }
-
 header img {
-    width: 300px;
+    width: 400px;
+    height: 200px;
 }
-
+header h1 {
+    color: rgb(84, 45, 195);
+    font-size: 40px;
+    font-weight: bold;
+}
 
 main {
-    background-color: rgb(122, 74, 218);
-    padding: 32px;
-    margin: 32px auto;
-    width: 700px;
-    border-radius: 8px;
-    color: rgb(248, 241, 255);
-    box-shadow: 8px 6px 5px rgba(24, 22, 22, 0.425);
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(119, 74, 216);
+    background-color: rgb(119, 74, 216);
+    margin: 0 500px;
+    border-radius: 10px;
 }
-main h2 {
+
+main div {
+    padding: 20px;
     text-align: left;
-    font-family: 'Fira Sans' sans-serif;
+    color: rgb(249, 241, 248);
+    font-weight: bold;
 }
-
-ul {
-    margin: 0;
-    padding: 0;
+main ul {
     list-style: none;
+    padding: 0 0 0 20px;
+    margin: 0;
 }
-li {
-    margin: 14px 0;
-    padding-left: 10px;
-    border-left: 5px solid transparent;
-}
-
-.extra-important {
-    color: rgb(255, 237, 177);
-    border-color: rgb(247, 209, 85);
+main li {
+    margin: 10px 0;
+    padding: 0 0 0 10px;
 }
 
-.inline_a {
-    background-color: rgb(240, 195, 71);
-    padding: 5px;
-    border-radius: 3px;
-    color: rgb(19, 17, 16);
-    text-decoration: none;
-    font-size: small;
+.mention {
+    border-left: 4px solid rgb(247, 211, 86);
+    color: rgb(255, 228, 245);
+}
+
+.mark {
+    background-color: rgb(255, 238, 173);
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
 }
 
 footer {
-    margin-top: 50px;
     text-align: center;
-}
-footer a {
-    background-color: rgb(219, 174, 118);
-    padding: 10px;
-    border-radius: 8px;
-    text-decoration: none;
-    color: black;
-    box-shadow: 3px 3px 4px rgba(24, 22, 22, 0.425);
+    margin: 30px;
 }
 
 footer p {
-    color: rgba(24, 22, 22, 0.425);
+    color: rgb(122, 108, 135);
+    margin: 30px 0 10px 0;
 }
 
-main em {
-    background-color: yellow ;
-    color: black;
+footer a {
+    color: rgb(92, 50, 0);
+    text-decoration: none;
+    background-color: rgb(249, 201, 39);
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    padding: 15px;
 }
