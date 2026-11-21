@@ -8,6 +8,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 header ul {
@@ -16,7 +19,7 @@ header ul {
     padding: 0;
     display: flex;
     justify-content: flex-end;
-    text-align: center;
+    text-align: left;
 }
 
 header li {
@@ -25,8 +28,16 @@ header li {
 
 header a {
     text-decoration: none;
-    font-size: 15px;
-    color: rgb(0,0,0);
+    font-size: 20px;
+    color: rgb(255,251,0);
+    padding: 12px;;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0);
+    border-radius: 6px;
+}
+
+header a:hover {
+    color: rgb(77, 77, 77);
+    background-color: rgb(255, 251, 0);
 }
 
 #page-logo a {
@@ -34,6 +45,6 @@ header a {
     text-decoration: none;
     color: rgb(245, 243, 160);
     text-shadow: 1px 1px 2px rgb(0,0,0);
-    font-size: 50px;
+    font-size: 30px;
     text-transform: uppercase;
 }
