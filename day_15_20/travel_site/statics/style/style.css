@@ -88,7 +88,10 @@
     border: 4px solid rgb(255 ,255,255);
 }
 
+/* .destination img:hover {
+    object-fit: fill;
+} */
+
 .destination strong {
     color: rgb(40, 116, 40);
 }
-
